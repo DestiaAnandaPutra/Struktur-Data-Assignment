@@ -127,4 +127,37 @@ cout << endl;
 
 ```
 # Output
+![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/563c247d-20a4-45ae-9b8c-19eb57978107)</br>
+Penjelasan dari program di atas adalah bahwa setiap elemen dalam array tiga dimensi yang dimasukkan oleh pengguna akan diperiksa apakah itu angka genap atau ganjil, dan akan memberikan penjelasan sesuai dengan itu. Program ini akan meminta pengguna untuk memasukkan nilai-nilai untuk setiap elemen dalam array tiga dimensi dan kemudian menampilkan nilai-nilai tersebut.
+
+# 2. Program Mencari Nilai Maksimal pada Array
+
+```C++
+#include <iostream>
+using namespace std;
+int main()
+{
+    int maks, a, i = 1, lokasi; 
+    cout << "masukan panjang array: ";
+    cin >> a; 
+    int array[a];
+    cout << "masukan" << a << "angka\n";
+    for (i = 0; i < a; i++)
+    {
+        cout << "Array ke-" << (i) << ":";
+        cin >> array[i];
+    }
+    maks = array[0];
+    for (i = 0; i < a; i++)
+    {
+        if (array[i] > maks)
+        {
+            maks = array[i];
+            lokasi = i;
+        }
+    }
+    cout << "Nilai maksimum adalah" << maks << "berada di array ke" << lokasi << endl; 
+}
+```
+
 
