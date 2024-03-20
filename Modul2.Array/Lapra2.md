@@ -287,6 +287,106 @@ int main() {
 ```
 # Output
 
+![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/c52847a8-b480-4181-8cd4-f87afc0a76a7) </br>
+
+elemen array tiga dimensi (x, y, z), program akan meminta pengguna untuk memasukkan nilai untuk setiap elemen array. Setelah semua nilai dimasukkan, program akan menampilkan kembali nilai dari setiap elemen array yang dimasukkan oleh pengguna, sesuai dengan indeksnya. Misalnya, jika pengguna memasukkan nilai 3 untuk x, 2 untuk y, dan 3 untuk z, maka program akan meminta pengguna untuk memasukkan nilai untuk setiap elemen arr[0][0][0], arr[0][0][1], arr[0][1][0], dan seterusnya, hingga arr[1][2][1]. Kemudian, program akan menampilkan kembali nilai dari setiap elemen array sesuai dengan indeksnya.
+
+# 3. Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!
+
+```C++
+/*
+    Destia Ananda Putra-2311102176
+*/  
+#include <iostream>
+using namespace std;
+
+int input;
+int bil[10];
+int minim, maksim;
+double rata;
+
+int main(){
+
+    while(true){
+    cout << "\t" "\t" << "MENU" << endl;
+    cout << "\t" << "1. INPUT ARRAY" << endl;
+    cout << "\t" << "2. TAMPIL ARRAY" << endl;
+    cout << "\t" << "3. CARI NILAI MINIMMUM" << endl;
+    cout << "\t" << "4. CARI NILAI MAKSIMUM" << endl;
+    cout << "\t" << "5. HITUNG RATA - RATA" << endl;
+
+    cout << "MASUKAN PILIHAN : ";
+    cin >> input;
+
+    cout << endl;
+
+
+
+    switch (input)
+    {
+    case 1 : 
+        {
+            for(int i = 0; i < 10; i++){
+                cout << "MASUKAN BILANGAN KE - " << i + 1 << " : ";
+                cin >> bil[i];
+            }
+            cout << endl;
+        break;
+        }
+    case 2 : 
+        {
+            cout << "ARRAY YANG DI INPUT : ";
+            for (int i = 0; i < 10; i++){
+                cout << bil[i] << " ";
+            }
+        cout << endl;
+        }
+    cout << endl;
+    break;
+    case 3 :
+        {
+            minim = bil[0];
+            for(int i = 0; i < 10; i++){
+                if(bil[i] < minim){
+                    minim = bil[i];
+                }
+            }
+            cout << "NILAI MINIMUM DARI ARRAY TERSEBUT : " << minim << endl;
+            cout << endl;
+        }
+    break;
+    case 4 :
+        {
+            maksim = bil[0];
+            for (int i = 0; i < 10; i++){
+                if(bil[i] > maksim){
+                    maksim = bil[i];
+                }
+            }
+            cout << "NILAI MAKSIMUM DARI ARRAY TERSEBUT : " << maksim << endl;
+            cout << endl;
+        }
+    break;
+    case 5 :
+        {
+            for(int i = 0; i < 10; i++){
+                rata += bil[i] / 12;
+            }
+            cout << "RATA - RATA DARI ARRAY TERSEBUT : " << rata;
+        }
+        cout << endl;
+        cout << endl;
+        break;
+    }
+}
+    return 0;
+}
+```
+# Output
+
+
+
+
 
 
   
