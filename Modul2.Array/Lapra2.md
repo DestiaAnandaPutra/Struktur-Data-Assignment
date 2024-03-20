@@ -383,6 +383,23 @@ int main(){
 }
 ```
 # Output
+![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/bd32fbbd-5ad8-4654-903e-a111f965ae46) </br>
+![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/aa87a178-b95e-4fb8-bc35-74476dad8101) </br>
+
+Pada saat program mulai, user akan diminta untuk menentukan ukuran array di mana maksimalnya adalah 10. Setelah menentukan ukuran array, user diminta untuk mengisi array dengan sejumlah bilangan sesuai ukuran arraynya. Setelah diisi, user diberikan menu supaya user dapat memilih untuk menampilkan output nilai maksimum, minimum, rata-rata dari array tersebut, atau keluar dari program.Kegunaan program tersebut adalah untuk memasukkan sejumlah data, kemudian menghitung dan menampilkan nilai maksimum, nilai minimum, dan rata-rata dari data-data tersebut. Program tersebut bertujuan untuk menghitung dan menampilkan nilai maksimum, nilai minimum, dan nilai rata-rata dari sejumlah data yang dimasukkan.
+
+# Kesimpulan
+Array  data yang digabung menjadi suatu kesatuan. Struktur array adalah kumpulan elemen-elemen data yang digabungkan menjadi suatu kesatuan yang memiliki tipe homogen (sama). Array merupakan bagian dari struktur data yaitu termasuk ke dalam struktur data sederhana yang dapat didefinisikan sebagai pemesanan alokasi memori sementara pada komputer.
+array dibagi menjadi 3 jenis, yaitu:
+
+Array Satu Dimensi, hanya memiliki satu baris, dengan format Data[]
+Array Dua Dimensi, memiliki dua baris, dengan format Data[][]
+Array Multidimensi, memiliki lebih dari dua dimensi, dengan format Data[][][]
+
+# Referensi
+[1] febiola  (2022 october 7). Pengertian dan kegunaan Array.
+[2] lestari, K. (2019, March 29). STUKTUR DATA STATIS ARRAY. 
+[3] Joseph Teguh Santoso (2021. july 17). Struktur Data dan Algoritma.
 
 
 
