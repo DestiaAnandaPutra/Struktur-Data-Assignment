@@ -215,6 +215,79 @@ int main() {
     return 0;
 }
 ```
+# Output 
+![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/e040f2e3-acec-4bec-a8ff-45a981197744) </br>
+
+Kode di atas digunakan untuk menentukan bilangan ganjil dan genap dari inputan user. Pada kode di atas, terdapat tiga variabel, yaitu:
+- const int SizeLimit_2176 untuk menentukan maksimal angka yang dapat diinput user, dilengkapi dengan const supaya tidak bisa diubah
+- int Data_2176[SizeLimit_2176] untuk wadah array menyimpan angka yang diinput user
+- int DataAmount_2176 untuk wadah jumlah angka yang sudah dimasukkan user, defaultnya 0 karena sudah pasti di awal tidak ada angka yang diinput<br/>
+<p>Jadi user bisa menginput hingga 10 angka sebelum programnya menampilkan hasil output data array beserta bilangan genap dan ganjilnya. Jika user ingin menginput jumlah angka dibawah 10, user dapat mengakhiri dengan karakter selain angka, seperti tanda titik (.). Jika user sudah menginput, program dapat menampilkan output data array dengan perulangan for, output bilangan genap dengan perulangan for dan percabangan if jika bilangan tersebut habis dibagi 2, dan bilangan ganjil dengan perulangan for dan percabangan if jika bilangan tersebut tidak habis dibagi 2.</p>
+
+# 2. Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
+
+```C++
+/*
+  Destia Ananda Putra-2311102176
+*/  
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x_size, y_size, z_size;
+
+    // Meminta pengguna untuk memasukkan ukuran elemen array tiga dimensi
+    cout << "Masukkan ukuran array tiga dimensi:" << endl;
+    cout << "Ukuran dimensi x: ";
+    cin >> x_size;
+    cout << "Ukuran dimensi y: ";
+    cin >> y_size;
+    cout << "Ukuran dimensi z: ";
+    cin >> z_size;
+
+    // Deklarasi array tiga dimensi sesuai dengan ukuran yang dimasukkan pengguna
+    int arr[x_size][y_size][z_size];
+
+    // Input elemen array
+    for (int x = 0; x < x_size; x++) {
+        for (int y = 0; y < y_size; y++) {
+            for (int z = 0; z < z_size; z++) {
+                cout << "Input Array[" << x << "][" << y << "][" << z << "] = ";
+                cin >> arr[x][y][z];
+            }
+        }
+        cout << endl;
+    }
+
+    // Output elemen array
+    cout << "Data Array:" << endl;
+    for (int x = 0; x < x_size; x++) {
+        for (int y = 0; y < y_size; y++) {
+            for (int z = 0; z < z_size; z++) {
+                cout << "Data Array[" << x << "][" << y << "][" << z << "] = " << arr[x][y][z] << endl;
+            }
+        }
+    }
+
+    // Tampilan array
+    cout << "Tampilan array:" << endl;
+    for (int x = 0; x < x_size; x++) {
+        for (int y = 0; y < y_size; y++) {
+            for (int z = 0; z < z_size; z++) {
+                cout << arr[x][y][z] << " ";
+            }
+            cout << endl;
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+```
+# Output
+
+
 
   
 
