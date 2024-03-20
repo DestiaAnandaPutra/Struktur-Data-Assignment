@@ -159,5 +159,19 @@ int main()
     cout << "Nilai maksimum adalah" << maks << "berada di array ke" << lokasi << endl; 
 }
 ```
+![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/e46a3d0e-f3de-4583-8ec5-8154e91faa9e) </br>
+
+Program mendefinisikan sebuah array  yang berisi beberapa bilangan bulat. Kemudian, program menghitung panjang array tersebut dan mencari nilai maksimum dengan membandingkan setiap elemen array dengan nilai maksimum yang telah ditentukan sebelumnya. Setelah iterasi selesai, nilai maksimum dari array akan ditampilkan. Dalam kasus ini, nilai maksimum dari array  yang ditampilkan oleh program.
+
+# 1. Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!
+  
+
+
+
+
+
+
+
+
 
 
