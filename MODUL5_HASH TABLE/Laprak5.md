@@ -1,5 +1,5 @@
-
-
+# <h1 align="center">Laporan Praktikum Modul 5_Hash Table</h1>
+<p align="center">Destia Ananda Putra - 2311102176</p>
 
 ###  TUJUAN PRAKTIKUM
 a.	Mahasiswa mampu menjelaskan definisi dan konsep dari Hash Code
