@@ -1,5 +1,3 @@
-// Guided 2
-
 #include <iostream>
 #include <string>
 #include <vector>
