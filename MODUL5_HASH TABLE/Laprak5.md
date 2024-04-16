@@ -720,19 +720,22 @@ int main() {
 ![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/aa07257b-281f-4735-95b7-1d5515245ce3)</br>
 ![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/4d97ef72-b811-4e1e-b98f-52e255d7671b)</br>
 
-Kode di atas digunakan untuk menjalankan hash table sederhana. Pada struct Mahasiswa_2139, terdapat variable NIM_2139 dengan tipe data long long, Nama_2139 bertipe data string, Nilai_2139 bertipe data int, Mahasiswa_2139* next, dan deklarasi Mahasiswa_2139. Ada juga class HashTable di mana ada private class dan public class. Dalam private class, dideklarasikan Mahasiswa_2139** table dan di dalam public class dideklarasikan HashTable(), ~HashTable(), dan fungsi lainnya yang dapat dipakai di int main(). Fungsi lainnya yang dipanggil di int main() adalah:
-- void Insert_2139(long long NIM_2139, string Nama_2139, int Nilai_2139)</br>
+Kode di atas digunakan untuk menjalankan hash table sederhana. Pada struct Mahasiswa_2176, terdapat variable NIM_2176 dengan tipe data long long, Nama_2176 bertipe data string, Nilai_2176 bertipe data int, Mahasiswa_21376* next, dan deklarasi Mahasiswa_2176. Ada juga class HashTable di mana ada private class dan public class. Dalam private class, dideklarasikan Mahasiswa_2176** table dan di dalam public class dideklarasikan HashTable(), ~HashTable(), dan fungsi lainnya yang dapat dipakai di int main(). Fungsi lainnya yang dipanggil di int main() adalah:
+- void Insert_2176(long long NIM_2176, string Nama_2176, int Nilai_2176)</br>
     Digunakan untuk menambahkan NIM, nama, dan nilai
-- Mahasiswa_2139* SearchNIM_2139(long long NIM_2139)</br>
+- Mahasiswa_2176* SearchNIM_2176(long long NIM_2176)</br>
     Digunakan untuk mencari data mahasiswa berdasarkan NIM
-- void SearchNilai_2139(int StartScoreRange, int EndScoreRange)</br>
+- void SearchNilai_2176(int StartScoreRange, int EndScoreRange)</br>
     Digunakan untuk mencari data mahasiswa berdasarkan range nilai
-- void Remove_2139(long long NIM_2139)</br> 
+- void Remove_2176(long long NIM_2176)</br> 
     Digunakan untuk menghapus data mahasiswa berdasarkan NIM dalam hash table</br>
-- void Traverse_2139()
-    Digunakan untuk menampilkan data Mahasiswa_2139 dalam hash table</br>
-<p>Dalam int main(), HashTable dideklarasikan dengan objek ht. Program menampilkan menu di mana menu ini memiliki 6 opsi untuk dipilih user. 6 opsi ini diwakili oleh case dalam switch case. Case 1 menjalankan ht.Insert_2139(NIM_2139, Nama_2139, Nilai_2139) untuk menambahkan data mahasiswa, Case 2 menjalankan ht.Remove_2139(NIM_2139) untuk menghapus data mahasiswa, Case 3 menjalankan ht.SearchNIM_2139(NIM_2139) untuk mencari data mahasiswa, Case 4 menjalankan ht.SearchNilai_2139(StartScoreRange, EndScoreRange) untuk mencari data mahasiswa dari range nilai, Case 5 menjalankan ht.Traverse_2139() untuk menampilkan data mahasiswa, dan yang terakhir Case 6 digunakan untuk mengakhiri program tersebut. Sebagai demonstrasi, user telah menjalankan seluruh fungsi pada keenam case ini dengan data nama "Jordan", "Angka", dan "Wijaya" dengan nilai 95, 85, 75, dan NIM 2311102139 untuk "Jordan". NIM untuk "Angka" dan "Wijaya" merupakan versi acakan dari NIM 2311102139.</p>
+- void Traverse_2176()
+    Digunakan untuk menampilkan data Mahasiswa_2176 dalam hash table</br>
+<p>Dalam int main(), HashTable dideklarasikan dengan objek ht. Program menampilkan menu di mana menu ini memiliki 6 opsi untuk dipilih user. 6 opsi ini diwakili oleh case dalam switch case. Case 1 menjalankan ht.Insert_2176(NIM_2176, Nama_2176, Nilai_2176) untuk menambahkan data mahasiswa, Case 2 menjalankan ht.Remove_2176(NIM_2176) untuk menghapus data mahasiswa, Case 3 menjalankan ht.SearchNIM_2176(NIM_2176) untuk mencari data mahasiswa, Case 4 menjalankan ht.SearchNilai_2176(StartScoreRange, EndScoreRange) untuk mencari data mahasiswa dari range nilai, Case 5 menjalankan ht.Traverse_2139() untuk menampilkan data mahasiswa, dan yang terakhir Case 6 digunakan untuk mengakhiri program tersebut. Sebagai demonstrasi.
 
+### Refrensi
+[1].Muhammad Nugraha, Dasar Pemrograman Dengan C++, Materi Paling Dasar untuk Menjadi Programmer Berbagai Platform. Yogyakarta: Deepublish, 2021.
+[2]. Guntara, R. G. (2023). ALGORITMA DAN PEMROGRAMAN DASAR: Menggunakan Bahasa Pemrograman C++ dalam menggunakan aplikasi.
 
 
 
