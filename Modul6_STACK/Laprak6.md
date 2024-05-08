@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 6 - Stack</h1>
-<p align="center">Destia Ananda Putra - 2311102139</p>
+<p align="center">Destia Ananda Putra - 2311102176</p>
 
 # Tujuan Pratikum
 a. Mampu memahami konsep stack pada struktur data dan algoritma
