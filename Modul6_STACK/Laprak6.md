@@ -182,6 +182,10 @@ Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data  yang
 #include <iostream>
 #include <stack>
 
+//Nama : Destia Ananda Putra
+//NIM  : 2311102176
+
+
 using namespace std;
 
 bool Palindrome_176(string kalimat176)
@@ -245,6 +249,10 @@ Program ini merupakan implementasi dari struktur data stack menggunakan array da
 ```c++
 #include <iostream>
 #include <stack>
+
+//Nama : Destia Ananda Putra
+//NIM  : 2311102176
+
 
 using namespace std;
 
