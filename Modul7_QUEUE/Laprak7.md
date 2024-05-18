@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 7 - QUEUE </h1>
-<p align="center">Fadhel Setiawan - 2311102171</p>
+<p align="center">Destia Ananda Putra - 2311102176</p>
 
 # TUJUAN PRAKTIKUM
 1. Mahasiswa mampu menjelaskan definisi dan konsep dari double queue
@@ -122,7 +122,7 @@ int main() {
 ![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/13ddd298-6e0b-4c09-9e26-113660161163)</br>
 <p align="justify">Program tersebut adalah sebuah implementasi sederhana dari struktur data queue dalam pemrograman. Queue adalah struktur data yang mengikuti prinsip "First In First Out" (FIFO), yang berarti elemen pertama yang dimasukkan ke dalam queue akan menjadi elemen pertama yang dihapus dan Program ini berfungsi untuk mengelola sebuah queue dengan batasan 5 elemen, menyediakan fungsi-fungsi dasar seperti menambah, menghapus, dan melihat isi queue serta mengecek apakah queue kosong atau penuh  Program ini memberikan penggunaan dasar dari queue dalam konteks antrian (queue) layanan.
 
-# UNGUIDED 1 
+# Unguided 1
 ```c++
 #include <iostream>
 using namespace std;
@@ -369,6 +369,7 @@ int main() {
 - Tampil(): Digunakan untuk menampilkan nilai-nilai elemen antrian.
 
 # Referensi
-[1] 
+[1] Zheng Li dkk, C++ Programming. Republic State of China: De Gruyter, 2019.</br>
+[2] Quinn, R., Advanced C++ Programming Cookbook. United Kingdoms: Packt Publishing Ltd., 2020.</br>
 
 
