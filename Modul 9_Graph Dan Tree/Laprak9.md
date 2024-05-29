@@ -446,7 +446,7 @@ int main() {
 ```
 #### Output Unguided 1:
 ![image](https://github.com/DestiaAnandaPutra/Struktur-Data-Assignment/assets/162514636/2cc0b089-3e23-4b67-807e-75fbc8e0f409)</br>
-<p align="justify">Kode di atas digunakan untuk menjalankan sebuah program graph yang menghitung jarak dari sebuah kota ke kota lainnya. Isi program ini dimulai langsung di fungsi int main(), di mana dalam fungsi tersebut ada int Destia_2311102176 yang digunakan untuk deklarasi variabel untuk menyimpan jumlah simpul (kota). Lalu, ada perulangan do { ... } while (Jordan_2311102176 != 0); sebagai loop yang memungkinkan pengguna untuk mengulangi proses hingga mereka memasukkan 0 untuk keluar. Selanjutnya ada vector cities  Selanjutnya ada vector> Matrix_2176  sebagai matriks 2D untuk menyimpan jarak antara setiap pasangan kota dan loop bersarang for untuk meminta pengguna memasukkan jarak antara setiap pasangan kota. Matrix_2176[i][j] menyimpan jarak dari kota i ke kota j. Lalu, ada juga loop for dengan const auto& city digunakan untuk menampilkan nama-nama kota sebagai header kolom dengan lebar kolom yang diatur oleh setw(10). Lalu, ada loop for digunakan untuk menampilkan setiap baris matriks jarak dan setw(10) digunakan untuk memastikan setiap nilai jarak rata dalam kolom yang sama. Kode ini ditutupi dengan loop do-while yang memungkinkan pengguna mengulangi proses atau keluar dengan memasukkan 0. Pesan penutup "Hope it helps!" dan pengembalian 0 menandakan akhir eksekusi program
+<p align="justify">Kode di atas digunakan untuk menjalankan sebuah program graph yang menghitung jarak dari sebuah kota ke kota lainnya. Isi program ini dimulai langsung di fungsi int main(), di mana dalam fungsi tersebut ada int Destia_2311102176 yang digunakan untuk deklarasi variabel untuk menyimpan jumlah simpul (kota). Lalu, ada perulangan do { ... } while (Destia_2311102176 != 0); sebagai loop yang memungkinkan pengguna untuk mengulangi proses hingga mereka memasukkan 0 untuk keluar. Selanjutnya ada vector cities  Selanjutnya ada vector> Matrix_2176  sebagai matriks 2D untuk menyimpan jarak antara setiap pasangan kota dan loop bersarang for untuk meminta pengguna memasukkan jarak antara setiap pasangan kota. Matrix_2176[i][j] menyimpan jarak dari kota i ke kota j. Lalu, ada juga loop for dengan const auto& city digunakan untuk menampilkan nama-nama kota sebagai header kolom dengan lebar kolom yang diatur oleh setw(10). Lalu, ada loop for digunakan untuk menampilkan setiap baris matriks jarak dan setw(10) digunakan untuk memastikan setiap nilai jarak rata dalam kolom yang sama. Kode ini ditutupi dengan loop do-while yang memungkinkan pengguna mengulangi proses atau keluar dengan memasukkan 0. Pesan penutup "Hope it helps!" dan pengembalian 0 menandakan akhir eksekusi program
 
 ### Unguided 2 
 
@@ -936,7 +936,8 @@ int main()
 <p align="justify">Di sisi lain, tree memiliki struktur yang lebih hierarkis. Entitas (disebut node) terhubung secara berjenjang, membentuk hubungan parent-child. Setiap node maksimal memiliki satu parent node, kecuali node paling atas (root) yang tidak memiliki parent. Struktur ini membuat tree sangat efisien untuk pencarian dan pengurutan data. Sebagai contoh, tree dapat digunakan untuk merepresentasikan struktur file directory dalam sistem operasi.</p>
 
 ## Refrensi
-[1] Zheng Li dkk, C++ Programming. Republic State of China: De Gruyter, 2019.
+[1] Zheng Li dkk, C++ Programming. Republic State of China: De Gruyter, 2019.<br/>
+[2] Quinn, R., Advanced C++ Programming Cookbook. United Kingdoms: Packt Publishing Ltd., 2020.<br/>
 
  
 
